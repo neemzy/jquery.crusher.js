@@ -4,13 +4,13 @@ module.exports = function(grunt)
         pkg: grunt.file.readJSON('package.json'),
 
         jshint: {
-            default: ['src/jquery.tao.js']
+            default: ['src/jquery.crusher.js']
         },
 
         uglify: {
             default: {
                 files: {
-                    'dist/jquery.tao.min.js': ['src/jquery.tao.js']
+                    'dist/jquery.crusher.min.js': ['src/jquery.crusher.js']
                 }
             }
         }
