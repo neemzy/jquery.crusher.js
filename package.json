@@ -1,0 +1,21 @@
+{
+  "name": "jquery.crusher.js",
+  "version": "1.0.0",
+  "description": "Vertically autoresizing textareas",
+  "main": "jquery.crusher.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neemzy/jquery.crusher.js.git"
+  },
+  "author": "neemzy <tom.panier@free.fr>",
+  "bugs": {
+    "url": "https://github.com/neemzy/jquery.crusher.js/issues"
+  },
+  "homepage": "https://github.com/neemzy/jquery.crusher.js",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-jshint": "~0.8.0",
+    "load-grunt-tasks": "~0.2.1"
+  }
+}

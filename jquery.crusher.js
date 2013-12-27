@@ -1,15 +1,13 @@
 /**
- * rusher - jquery.crusher.js
+ * Crusher - jquery.crusher.js
  * Vertically autoresizing textareas
  *
  * @author Tom Panier <tom.panier@free.fr>
  * @see https://github.com/neemzy/jquery.crusher.js
  * @see http://www.zaibatsu.fr
- *
- * @require jQuery >= 1.7.2 (untested with previous versions)
  */
 
-;(function($)
+(function($)
 {
     $.fn.extend({
         crush: function() {
